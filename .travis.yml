@@ -3,8 +3,8 @@ arch:
   - amd64
   - ppc64le
 node_js:
-  - '10'
-  - '12'
+  - '8'
+  - '6'
 deploy:
   - provider: script
     script: npx nlm release
